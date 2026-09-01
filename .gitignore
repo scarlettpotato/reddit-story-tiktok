@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables / secrets
+.env
+
+# Generated data
+data/raw/*
+data/processed/*
+output/*
+logs/*
+
+# Keep folder structure in Git
+!.gitkeep
+
+# VS Code settings
+.vscode/
