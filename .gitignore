@@ -20,3 +20,8 @@ logs/*
 
 # VS Code settings
 .vscode/
+
+#output
+story_output.txt
+*.wav
+test_tts.py

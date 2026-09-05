@@ -9,8 +9,51 @@ Usage:
     python pipeline.py
 """
 
+from ollama import chat
+
 from fetch_reddit_posts import top_posts_last_n_hours
 from rank_prompts import evaluate_prompt, calculate_score, MIN_SCORE, MODEL
+from kokoro_tts import text_to_speech
+
+
+STORY_SYSTEM_PROMPT = """
+You are a short-form fiction writer creating narrated stories for a
+60-120 second TikTok video.
+
+Write an original short story based on the given writing prompt.
+
+Requirements:
+- Length: roughly 550-650 words (about 3-4 minutes of spoken narration).
+- Hook the listener in the first sentence.
+- Build tension or intrigue, then deliver a clear, satisfying ending
+  (a twist, punchline, or emotional payoff).
+- Dialogue: roughly 50 to 60 percent of the story.
+- Paragraphs: generally short, frequently alternating between narration and dialogue.
+- Write in plain, spoken-style prose meant to be read aloud, not
+  formatted like a written short story (no headers, no chapter breaks).
+- Do not restate or reference the prompt itself in the story.
+- Do not include a title.
+
+Return ONLY the story text. No preamble, no explanation, no markdown.
+"""
+
+
+def generate_story(prompt):
+    """
+    Generate a narration-ready short story from a writing prompt using
+    the same local model used for ranking.
+    """
+    response = chat(
+        model=MODEL,
+        messages=[
+            {"role": "system", "content": STORY_SYSTEM_PROMPT},
+            {"role": "user", "content": f"Writing prompt:\n\n{prompt}"},
+        ],
+        options={
+            "temperature": 0.9,
+        },
+    )
+    return response.message.content.strip()
 
 
 def fetch_candidate_prompts(subreddit="writingprompts", hours=24, top_n=20):
@@ -59,7 +102,7 @@ def rank_candidates(candidates):
 
 def main():
     print(f"Fetching top r/writingprompts posts from the last 24 hours...\n")
-    candidates = fetch_candidate_prompts(subreddit="writingprompts", hours=24, top_n=20)
+    candidates = fetch_candidate_prompts(subreddit="writingprompts", hours=24, top_n=5)
 
     if not candidates:
         print("No posts found — nothing to rank.")
@@ -92,8 +135,27 @@ def main():
     print(f"Kept {len(ranked)} of {len(candidates)} candidates")
     print("=" * 70)
 
-    if ranked:
-        print(f"\nTop pick: \"{ranked[0]['prompt']}\" (post id: {ranked[0]['id']})")
+    if not ranked:
+        print("\nNo candidates met the minimum score — no story generated.")
+        return
+
+    top = ranked[0]
+    print(f"\nTop pick: \"{top['prompt']}\" (post id: {top['id']})")
+
+    print("\n" + "=" * 70)
+    print("GENERATING STORY")
+    print("=" * 70)
+
+    story = generate_story(top["prompt"])
+
+    print(f"\n{story}\n")
+
+    with open("story_output.txt", "w", encoding="utf-8") as f:
+        f.write(f"Prompt: {top['prompt']}\n")
+        f.write(f"Source post id: {top['id']} (u/{top['author']})\n\n")
+        f.write(story)
+
+    print("Saved story to story_output.txt")
 
 
 if __name__ == "__main__":
