@@ -2,11 +2,13 @@ from kokoro import KPipeline
 import soundfile as sf
 import numpy as np
 
-def text_to_speech(text, output_file):
-    audio_chunks = []
-    pipeline = KPipeline(
+pipeline = KPipeline(
     lang_code="a",
     repo_id="hexgrad/Kokoro-82M")
+
+def text_to_speech(text, output_file):
+    audio_chunks = []
+
 
     generator = pipeline(
         text,

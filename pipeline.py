@@ -14,6 +14,8 @@ from ollama import chat
 from fetch_reddit_posts import top_posts_last_n_hours
 from rank_prompts import evaluate_prompt, calculate_score, MIN_SCORE, MODEL
 from kokoro_tts import text_to_speech
+from whisper_stt import transcribe_audio
+from captions import generate_srt
 
 
 STORY_SYSTEM_PROMPT = """
@@ -158,7 +160,11 @@ def main():
     print("Saved story to story_output.txt")
     #Convert generated story to a narrated .wav file
     print ("Converting text to speech...")
-    text_to_speech(story, "output.wav")
+    wav_file = text_to_speech(story, "output.wav")
+    #create word-level timestamps for captioning
+    transcribed_audio = transcribe_audio(wav_file)
+    #create caption
+    generate_srt(transcribed_audio, "captions.srt")
     print("Pipeline Completed!")
 
 if __name__ == "__main__":
