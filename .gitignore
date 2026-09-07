@@ -24,4 +24,4 @@ logs/*
 #output
 story_output.txt
 *.wav
-test_tts.py
+test*.py

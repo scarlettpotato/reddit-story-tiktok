@@ -23,7 +23,7 @@ You are a short-form fiction writer creating narrated stories for a
 Write an original short story based on the given writing prompt.
 
 Requirements:
-- Length: roughly 550-650 words (about 3-4 minutes of spoken narration).
+- Length: roughly 625-800 words (about 3.5-5 minutes of spoken narration).
 - Hook the listener in the first sentence.
 - Build tension or intrigue, then deliver a clear, satisfying ending
   (a twist, punchline, or emotional payoff).
@@ -156,7 +156,10 @@ def main():
         f.write(story)
 
     print("Saved story to story_output.txt")
-
+    #Convert generated story to a narrated .wav file
+    print ("Converting text to speech...")
+    text_to_speech(story, "output.wav")
+    print("Pipeline Completed!")
 
 if __name__ == "__main__":
     main()
