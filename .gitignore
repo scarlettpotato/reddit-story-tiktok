@@ -25,3 +25,5 @@ logs/*
 story_output.txt
 *.wav
 test*.py
+*.mp4
+*.json
