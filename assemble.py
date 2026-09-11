@@ -529,7 +529,7 @@ def burn_captions(
 # Main
 # ---------------------------------------------------------------------------
 
-def main():
+def assemble():
 
     parser = argparse.ArgumentParser(
         description=(
@@ -816,5 +816,5 @@ def main():
     )
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

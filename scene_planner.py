@@ -198,7 +198,7 @@ def read_story(story_argument: str) -> str:
     return story
 
 
-def main():
+def plan_scenes():
     parser = argparse.ArgumentParser(
         description="Convert a story into image-generation scenes using Ollama."
     )
@@ -272,5 +272,5 @@ def main():
         sys.exit(1)
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

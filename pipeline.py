@@ -16,6 +16,9 @@ from rank_prompts import evaluate_prompt, calculate_score, MIN_SCORE, MODEL
 from kokoro_tts import text_to_speech
 from whisper_stt import transcribe_audio
 from captions import generate_srt
+from generate_scenes import generate_scenes
+from assemble import assemble
+from scene_planner import plan_scenes
 
 
 STORY_SYSTEM_PROMPT = """
@@ -104,7 +107,7 @@ def rank_candidates(candidates):
 
 def main():
     print(f"Fetching top r/writingprompts posts from the last 24 hours...\n")
-    candidates = fetch_candidate_prompts(subreddit="writingprompts", hours=24, top_n=5)
+    candidates = fetch_candidate_prompts(subreddit="writingprompts", hours=24, top_n=10)
 
     if not candidates:
         print("No posts found — nothing to rank.")
@@ -162,9 +165,12 @@ def main():
     print ("Converting text to speech...")
     wav_file = text_to_speech(story, "output.wav")
     #create word-level timestamps for captioning
-    transcribed_audio = transcribe_audio(wav_file)
+    transcribed_audio = transcribe_audio("output.wav")
     #create caption
     generate_srt(transcribed_audio, "captions.srt")
+    plan_scenes()
+    generate_scenes()
+    assemble()
     print("Pipeline Completed!")
 
 if __name__ == "__main__":

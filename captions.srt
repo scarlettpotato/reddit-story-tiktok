@@ -1,192 +1,268 @@
 1
-00:00:00,000 --> 00:00:05,400
-Prompt, W.P., you're undergoing the final test to complete your wizarding studies, facing
+00:00:00,000 --> 00:00:03,720
+The first time she saw the healer's hands, she knew she'd never leave the hospital.
 
 2
-00:00:05,400 --> 00:00:06,920
-your magic teacher in a duel.
+00:00:04,320 --> 00:00:10,260
+His fingers were the color of burnt toast, cracked and peeling, and they moved like they belonged to someone who'd forgotten how to feel.
 
 3
-00:00:07,760 --> 00:00:12,580
-As spells are thrown back and forth, magical energy crackling through the space in between
+00:00:10,880 --> 00:00:16,660
+Leela, eight years old and too old for this, stared at the ivy pole as the man pressed his palms to her broken leg.
 
 4
-00:00:12,580 --> 00:00:14,500
-you, your teacher pulls out a gun.
+00:00:17,180 --> 00:00:20,300
+Your body's already fighting, he said, his voice like gravel.
 
 5
-00:00:15,420 --> 00:00:20,020
-Source post id, 1W9JISKS, you and droid 5539.
+00:00:20,860 --> 00:00:21,420
+Let me help it.
 
 6
-00:00:21,020 --> 00:00:24,600
-The air between us split with a crackle of lightning as my spell collided with his,
+00:00:21,900 --> 00:00:23,560
+The next morning her leg was whole.
 
 7
-00:00:25,040 --> 00:00:27,060
-the force throwing me back against the stone wall.
+00:00:24,020 --> 00:00:25,020
+The next week her arm.
 
 8
-00:00:27,780 --> 00:00:31,400
-His robes flared crimson, the magic around him humming like a live wire.
+00:00:25,020 --> 00:00:35,160
+By the time she was twelve, she'd outgrown the hospital, but the healer's hands stayed with her on her scars, on her bruises, on the places her body refused to mend.
 
 9
-00:00:32,080 --> 00:00:35,260
-You're not ready, he said, his voice steady, almost bored.
+00:00:35,900 --> 00:00:39,940
+You're not like the others, she said one day, watching him patch a gash on her knee.
 
 10
-00:00:35,840 --> 00:00:39,180
-I spat a curse at his feet, and he dissolved it with a flick of his wrist,
+00:00:40,540 --> 00:00:44,280
+His skin was paper-thin, veins like spiderwebs beneath the surface.
 
 11
-00:00:39,560 --> 00:00:42,360
-the smoke curling into a serpent that slithered toward me.
+00:00:45,000 --> 00:00:45,720
+They don't age.
 
 12
-00:00:42,920 --> 00:00:46,300
-I dodged my boots scuffing the floor as I rolled behind a pillar.
+00:00:46,440 --> 00:00:48,460
+He smiled, but it didn't reach his eyes.
 
 13
-00:00:47,180 --> 00:00:50,960
-He stepped forward, the glow of his wand casting shadows across his face.
+00:00:48,940 --> 00:00:49,780
+They don't choose to.
 
 14
-00:00:51,700 --> 00:00:54,480
-You've spent years chasing power, but you've never asked why.
+00:00:50,700 --> 00:00:53,060
+Leela didn't understand until she found his file.
 
 15
-00:00:55,240 --> 00:00:58,580
-His words were a spell in themselves, wrapping around me like vines.
+00:00:53,060 --> 00:00:57,800
+The healer's name was Elia's Voss, and his medical records read like a countdown.
 
 16
-00:00:59,140 --> 00:01:01,340
-I launched a fireball, and he caught it midair,
+00:00:58,480 --> 00:01:01,740
+Every time he healed someone, his own cells aged decades.
 
 17
-00:01:01,740 --> 00:01:04,320
-the flames twisting into a bird that dove at his chest.
+00:01:02,380 --> 00:01:04,060
+A scraped knee made him look fifty.
 
 18
-00:01:04,900 --> 00:01:09,260
-He laughed, low and sharp, and fired a jet of ice that froze the bird midflight.
+00:01:04,660 --> 00:01:06,320
+A bullet wound made him look dead.
 
 19
-00:01:10,120 --> 00:01:14,160
-Enough, he said, and suddenly his wand was in his hand, but not pointing at me.
+00:01:06,900 --> 00:01:10,540
+He'd been doing this for thirty years, and his body was a clockwork relic.
 
 20
-00:01:14,660 --> 00:01:18,360
-Instead, he raised it toward the ceiling, where a single bullet whistled through
+00:01:11,120 --> 00:01:14,760
+You're going to die, she said, sitting across from him in the break room.
 
 21
-00:01:18,360 --> 00:01:18,760
-the air.
+00:01:15,360 --> 00:01:19,000
+He was stirring coffee, the steam curling around his hands like ghosts.
 
 22
-00:01:19,400 --> 00:01:22,680
-It embedded itself in the stone, quivering, my breath hitched.
+00:01:19,000 --> 00:01:23,420
+He looked up and for a moment his face was young, twenty-five maybe.
 
 23
-00:01:23,200 --> 00:01:24,420
-You think magic is the answer?
+00:01:24,040 --> 00:01:25,520
+I'm already dead, he said.
 
 24
-00:01:24,860 --> 00:01:27,780
-He turned to face me, his eyes dark with something I couldn't name.
+00:01:25,920 --> 00:01:27,160
+I just haven't noticed yet.
 
 25
-00:01:28,460 --> 00:01:32,520
-It's not, it's a tool, a weapon, and you've been too eager to wield it.
+00:01:28,020 --> 00:01:29,940
+Leela's chest tightened, why do it?
 
 26
-00:01:33,160 --> 00:01:34,900
-I stepped forward, my voice shaking.
+00:01:30,520 --> 00:01:31,640
+Because someone has to.
 
 27
-00:01:35,500 --> 00:01:36,800
-You're supposed to teach me not.
+00:01:32,200 --> 00:01:34,500
+He set the coffee down, his fingers trembling.
 
 28
-00:01:37,540 --> 00:01:40,940
-You're supposed to learn, he interrupted, his wand trembling.
+00:01:35,300 --> 00:01:38,140
+Your body's a warzone, your cells are fighting itself.
 
 29
-00:01:41,600 --> 00:01:44,240
-But you've chosen the path of a killer instead of a guardian.
+00:01:38,560 --> 00:01:40,340
+I'm just giving them a fighting chance.
 
 30
-00:01:44,920 --> 00:01:47,800
-He holstered the gun, the metal clinking against the stone.
+00:01:41,160 --> 00:01:42,080
+She leaned closer.
 
 31
-00:01:48,440 --> 00:01:51,120
-This isn't a test of strength, it's a test of choice.
+00:01:42,600 --> 00:01:43,700
+What if I don't need you anymore?
 
 32
-00:01:51,660 --> 00:01:54,940
-The room felt heavier, the magic around us thickening.
+00:01:44,420 --> 00:01:46,340
+He laughed, a dry, broken sound.
 
 33
-00:01:55,480 --> 00:01:59,160
-I could feel the weight of every spell we'd cast, every curse we'd thrown.
+00:01:46,840 --> 00:01:47,760
+You'll always need me.
 
 34
-00:01:59,800 --> 00:02:03,020
-My hands trembled as I raised my wand, but not to fight.
+00:01:47,760 --> 00:01:51,080
+But Leela didn't, not after she turned sixteen.
 
 35
-00:02:03,720 --> 00:02:06,460
-Then prove it, I said, my voice steadier now.
+00:01:51,760 --> 00:01:53,420
+Her body stopped rejecting itself.
 
 36
-00:02:07,340 --> 00:02:09,500
-He nodded, and the air between us shimmered.
+00:01:53,900 --> 00:01:54,700
+Her scars faded.
 
 37
-00:02:10,000 --> 00:02:13,500
-A new spell erupted from his wand, not a destructive force but
+00:01:55,300 --> 00:01:56,440
+Her bones stopped cracking.
 
 38
-00:02:13,500 --> 00:02:15,320
-a wall of light that pulsed like a heartbeat.
+00:01:57,040 --> 00:01:58,200
+She didn't need Elias anymore.
 
 39
-00:02:16,080 --> 00:02:19,740
-I met it with my own, and for a moment, the magic around us stilled.
+00:01:58,780 --> 00:02:01,360
+She didn't even tell him, she just stopped showing up.
 
 40
-00:02:20,340 --> 00:02:25,520
-Then, slowly, the light bent, shaping into a shield that absorbed the force of my spell.
+00:02:02,100 --> 00:02:04,000
+One night she found him in the parking lot,
 
 41
-00:02:26,400 --> 00:02:29,240
-He lowered his wand, his gaze locking onto mine.
+00:02:04,300 --> 00:02:05,880
+his breath visible in the cold air.
 
 42
-00:02:29,880 --> 00:02:33,300
-You've made your choice, he said, now decide what you'll do with it.
+00:02:06,440 --> 00:02:09,060
+His skin was gray, his hands frozen in place.
 
 43
-00:02:33,980 --> 00:02:36,460
-I exhaled the weight lifting from my chest.
+00:02:09,800 --> 00:02:11,040
+You're done, she said.
 
 44
-00:02:37,040 --> 00:02:40,880
-The duel was over, but the lesson lingered, a quiet hum in the air.
+00:02:11,740 --> 00:02:13,620
+He nodded, I've been waiting for you.
 
 45
-00:02:41,480 --> 00:02:44,600
-I turned away, the echo of his words echoing in my mind.
+00:02:14,420 --> 00:02:16,980
+Leela didn't know what to say, you could have stopped me.
 
 46
-00:02:45,240 --> 00:02:47,840
-Magic wasn't just power, it was responsibility.
+00:02:16,980 --> 00:02:18,240
+I tried.
 
 47
-00:02:48,560 --> 00:02:50,880
-And for the first time, I wasn't just wielding it.
+00:02:18,740 --> 00:02:20,320
+He stepped back, his body trembling.
 
 48
-00:02:51,220 --> 00:02:52,700
-I was choosing how to use it.
+00:02:20,940 --> 00:02:23,940
+But you're too strong, too stubborn, you outgrew the pain.
+
+49
+00:02:24,780 --> 00:02:26,660
+She reached for him, but he was already fading,
+
+50
+00:02:27,100 --> 00:02:28,520
+his form dissolving like smoke.
+
+51
+00:02:29,220 --> 00:02:29,520
+Wait.
+
+52
+00:02:30,320 --> 00:02:32,660
+Tell your body to stop fighting, he whispered.
+
+53
+00:02:33,120 --> 00:02:35,180
+Let it break, let it heal, without me.
+
+54
+00:02:36,020 --> 00:02:37,780
+Leela stood there, watching him vanish,
+
+55
+00:02:38,220 --> 00:02:40,260
+and for the first time in her life, she didn't cry.
+
+56
+00:02:41,000 --> 00:02:42,820
+She walked home, her heart pounding,
+
+57
+00:02:43,160 --> 00:02:44,240
+and when she looked in the mirror,
+
+58
+00:02:44,240 --> 00:02:46,480
+her skin was smooth, her bones light.
+
+59
+00:02:47,080 --> 00:02:48,240
+She didn't need anyone anymore,
+
+60
+00:02:48,820 --> 00:02:50,600
+not even the man who'd saved her life.
+
+61
+00:02:51,280 --> 00:02:53,040
+But sometimes, in the quiet hours,
+
+62
+00:02:53,400 --> 00:02:55,000
+she'd trace the scars on her arms
+
+63
+00:02:55,000 --> 00:02:56,860
+and wonder if she'd made the right choice,
+
+64
+00:02:57,360 --> 00:02:59,580
+because Elia's vase wasn't just a healer.
+
+65
+00:03:00,040 --> 00:03:03,200
+He was a ghost, and she'd spent her whole life chasing his shadow.
+
+66
+00:03:03,920 --> 00:03:06,120
+Now that he was gone, she realized the truth,
+
+67
+00:03:06,540 --> 00:03:09,260
+there was no healing magic, only the cost of living.
 
