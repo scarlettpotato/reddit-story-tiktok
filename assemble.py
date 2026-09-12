@@ -815,6 +815,8 @@ def assemble():
         f"{elapsed_time / 60:.2f} minutes"
     )
 
+def main():
+    assemble()
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()

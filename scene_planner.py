@@ -205,7 +205,7 @@ def plan_scenes():
 
     parser.add_argument(
         "--story",
-        required=True,
+        default="story_output.txt",
         help="Path to a story .txt file OR the story text itself."
     )
 
@@ -271,6 +271,8 @@ def plan_scenes():
         print(f"\nERROR: {exc}", file=sys.stderr)
         sys.exit(1)
 
+def main():
+    plan_scenes()
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main()__":
+    main()

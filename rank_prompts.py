@@ -60,8 +60,11 @@ Score each category from 1 to 10:
    common short-form fiction concepts?
 
 6. tiktok_potential:
-   How well could this premise work as a 60-120 second narrated
-   short-form video?
+    How well could this premise work as a 60–120 second narrated 
+    short-form video, considering its hook, narrative potential, 
+    emotional impact, and ability to sustain viewer interest? Also 
+    consider whether graphic violence, gore, or other sensitive 
+    content could violate TikTok/YouTube policies or affect monetization.
 
 Return ONLY valid JSON using exactly this structure:
 

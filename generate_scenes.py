@@ -84,6 +84,8 @@ def generate_scenes():
     print(f"Total runtime: {elapsed_time:.2f} seconds")
     print(f"Total runtime: {elapsed_time / 60:.2f} minutes")
 
+def main():
+    generate_scenes()
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
